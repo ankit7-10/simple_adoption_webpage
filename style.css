@@ -1,0 +1,47 @@
+.card{
+   
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 25px;
+    /* display: inline-block; */
+    margin: 10px;
+    padding: 10px; /*for making space btw img and border*/
+
+}
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img{
+    /* height: 30%;
+    width: 90%; */
+    width: 100%;
+    border-radius:25px ;
+}
+
+
+
+.heading1{
+    color: rgb(235, 114, 27);
+}
+
+span{
+    color: rgb(222, 103, 18);;
+}
+
+h3{
+    padding: 7px;
+}
+
+h4{
+    text-align: right;
+    color: burlywood;
+   margin-right: 10px;
+}
+
+@media(max-width: 400px){
+    #pets{
+        flex-wrap: wrap;
+    }
+}
